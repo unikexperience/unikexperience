@@ -3,8 +3,8 @@
 	<channel>
 		<title>Unik Blog</title>
 		<description>Unik is full service digital company located in Helsinki &amp; Casablanca</description>
-		<link>/Users/Ismail/Ressources/Development/Ruby/learn/blog/bilaw.al/_production</link>
-		<atom:link href="/Users/Ismail/Ressources/Development/Ruby/learn/blog/bilaw.al/_production/feed.xml" rel="self" type="application/rss+xml" />
+		<link>http://unikexperience.github.com/unikexperience/</link>
+		<atom:link href="http://unikexperience.github.com/unikexperience//feed.xml" rel="self" type="application/rss+xml" />
 		
 			<item>
 				<title>First post</title>
@@ -12,8 +12,8 @@
 				<description>
 </description>
 				<pubDate>Sat, 23 Mar 2013 00:00:00 +0000</pubDate>
-				<link>/Users/Ismail/Ressources/Development/Ruby/learn/blog/bilaw.al/_production/2013/03/23/first-post.html</link>
-				<guid isPermaLink="true">/Users/Ismail/Ressources/Development/Ruby/learn/blog/bilaw.al/_production/2013/03/23/first-post.html</guid>
+				<link>http://unikexperience.github.com/unikexperience//2013/03/23/first-post.html</link>
+				<guid isPermaLink="true">http://unikexperience.github.com/unikexperience//2013/03/23/first-post.html</guid>
 			</item>
 		
 			<item>
@@ -50,8 +50,8 @@
 &lt;p&gt;&lt;em&gt;Update (19/3) &amp;mdash;&lt;/em&gt; I've suggested the fix to Firefox, and waiting for a response.&lt;/p&gt;
 </description>
 				<pubDate>Sun, 17 Mar 2013 00:00:00 +0000</pubDate>
-				<link>/Users/Ismail/Ressources/Development/Ruby/learn/blog/bilaw.al/_production/2013/03/17/hacking-the-a-tag-in-100-characters.html</link>
-				<guid isPermaLink="true">/Users/Ismail/Ressources/Development/Ruby/learn/blog/bilaw.al/_production/2013/03/17/hacking-the-a-tag-in-100-characters.html</guid>
+				<link>http://unikexperience.github.com/unikexperience//2013/03/17/hacking-the-a-tag-in-100-characters.html</link>
+				<guid isPermaLink="true">http://unikexperience.github.com/unikexperience//2013/03/17/hacking-the-a-tag-in-100-characters.html</guid>
 			</item>
 		
 			<item>
@@ -68,7 +68,12 @@
 &lt;p&gt;Even though I'm a newbie at Jekyll, I have instantaneously felt its part in boosting my focus and productivity. Mix Jekyll with &lt;a href=&quot;http://informationarchitects.net&quot;&gt;iA Writer&lt;/a&gt; and you'll write some fantastic stuff. I've even freely published the source powering this website &lt;a href=&quot;http://github.com/bih/bilaw.al&quot;&gt;on GitHub&lt;/a&gt;. You'll be surprised by how easier your life becomes when &lt;strong&gt;it is not possible&lt;/strong&gt; to be distracted by software.&lt;/p&gt;
 </description>
 				<pubDate>Thu, 14 Mar 2013 00:00:00 +0000</pubDate>
-				<link>/Users/Ismail/Ressources/Development/Ruby/learn/blog/bilaw.al/_production/2013/03/14/goodbye-wordpress-hello-jekyll.html</link>
+				<link>http://unikexperience.github.com/unikexperience//2013/03/14/goodbye-wordpress-hello-jekyll.html</link>
+				<guid isPermaLink="true">http://unikexperience.github.com/unikexperience//2013/03/14/goodbye-wordpress-hello-jekyll.html</guid>
+			</item>
+		
+	</channel>
+</rss>tml</link>
 				<guid isPermaLink="true">/Users/Ismail/Ressources/Development/Ruby/learn/blog/bilaw.al/_production/2013/03/14/goodbye-wordpress-hello-jekyll.html</guid>
 			</item>
 		
