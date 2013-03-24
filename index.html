@@ -1,153 +1,458 @@
-<!DOCTYPE HTML>
-<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en" xmlns:og="http://ogp.me/ns#" xmlns:fb="https://www.facebook.com/2008/fbml">
-<head>
-  <title>Bilaw.al Hameed</title>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap, from Twitter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="author" content="Bilawal Hameed" />
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- Les styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:300' rel='stylesheet' type='text/css'>
+    <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="js/html5shiv.js"></script>
+    <![endif]-->
 
-  <link rel="icon" href="http://unikexperience.github.com/unikexperience//images/icon.png" type="image/png" />
-  <link rel="stylesheet" href="http://unikexperience.github.com/unikexperience//css/bilawal.css" type="text/css" media="screen" />
-  <link rel="stylesheet" href="http://unikexperience.github.com/unikexperience//css/pygments.css" type="text/css" media="screen" />
-  <!--[if IE 8]><link rel="stylesheet" href="http://unikexperience.github.com/unikexperience//css/ie8.css" type="text/css" media="screen, projection"><![endif]-->
-  <!--[if IE 7]><link rel="stylesheet" href="http://unikexperience.github.com/unikexperience//css/ie7.css" type="text/css" media="screen, projection"><![endif]-->
-  <!--[if IE 6]><link rel="stylesheet" href="http://unikexperience.github.com/unikexperience//css/ie6.css" type="text/css" media="screen, projection"><![endif]-->
+    <!-- like icon -->
+    <link rel="shortcut icon" href="img/favicon.png">
+  </head>
 
-  <!-- For non-Retina iPhone, iPod Touch, and Android 2.2+ devices: -->
-  <link rel="apple-touch-icon-precomposed" href="http://unikexperience.github.com/unikexperience//images/iphone-icon-57x57.png">
+  <body class="front-page">
+    <div class="navbar  navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="brand" href="#">
+            <img src="img/logo.png" alt="Clouds Wave" id="logo">
+          </a>
+          <form class="navbar-search pull-left">
+            <input type="text" class="search-query" placeholder="Find Services, Vendors, People" data-provide="typeaheadColors">
+          </form>
+          <ul class="nav pull-right">
+            <li>
+              <a href="#login-cloudswave" role="button" data-toggle="modal">Login</a>
+            </li><!-- Button to trigger modal login-->
+            <li>
+              <a id="join-now" href="#join-cloudswave" role="button" data-toggle="modal">Join Now</a>
+            </li><!-- Button to trigger modal join now-->
+          </ul>
+        </div><!--/container -->
+      </div><!--/navbar-inner-->
+    </div><!--/navbar-->
+    <div class="container">
+      <div class="row">
+        <div class="span12">
+          <div class="hero-unit">
+            <a href="#" id="close-hero"><i class="icon-remove icon-white"></i></a>
+            <h1>Welcome to <span class="blue-cloud">Cloudswave!</span></h1>
+            <p>Discover Amazing Online Services for Business and Leisure. Get Exclusive Deals!</p>
+            <p class="clearfix"><a href="#" class="learn-more-link pull-right">Learn more</a></p>
+          </div><!--/hero-unit -->
+        </div><!--/span12-->
+      </div><!--/row-->
+      <div class="row">
+        <div class="span3">
+          <div class="sidebar-nav">
+            <ul class="nav nav-list big-categories">
+              <li><a href="#" class="active">Home</a></li>
+              <li><a href="#">All Deals</a></li>
+              <li><a href="#">Best Rated</a></li>
+              <li><a href="#">Top Free</a></li>
+              <li><a href="#">Top Paid</a></li>
+            </ul>
+            <ul class="nav nav-list">
+              <li class="nav-header">Business Solutions</li>
+              <li><a href="#">Social & Communication</a></li>
+              <li><a href="#">Business Intelligence & Analytics</a></li>
+              <li><a href="#">Collaboration</a></li>
+              <li><a href="#">Customer Management</a></li>
+              <li><a href="#">Finance & Accounting</a></li>
+              <li><a href="#">IT & Communications</a></li>
+              <li><a href="#">Integration Solutions</a></li>
+              <li><a href="#">Marketing</a></li>
+              <li><a href="#">Project Management & Planning</a></li>
+              <li><a href="#">Sales</a></li>
+              <li><a href="#">Creative Tools</a></li>
+              <li><a href="#">Security</a></li>
+              <li><a href="#">Developer Tools</a></li>
+              <li><a href="#">Humain Resources</a></li>
+            </ul>
+            <ul class="nav nav-list">
+              <li class="nav-header">Leisure & Entertainement</li>
+              <li><a href="#">Entertainment</a></li>
+              <li><a href="#">Games</a></li>
+              <li><a href="#">Life style</a></li>
+              <li><a href="#">Education</a></li>
+            </ul>
+          </div><!--/sidebar-nav-->
+        </div><!--/span3-->
+        <div class="span9 apps-listing">
+          <div class="row">
+            <h2>Featured Deals</h2>
+            <div class="span3 app-card">
+              <a href = "#"><img src="img/app1.jpg" alt=""></a>
+              <div class="description">
+                <h3><a href="#">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                <p>
+                  Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+                </p>
+                <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left green">95</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+                </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span3-->
+            <div class="span3 app-card">
+              <a href = "#"><img src="img/app1.jpg" alt=""></a>
+              <div class="description">
+                <h3><a href="#">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                <p>
+                  Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+                </p>
+                <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left green">95</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+                </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span3-->
+            <div class="span3 app-card">
+              <a href = "#"><img src="img/app1.jpg" alt=""></a>
+              <div class="description">
+                <h3><a href="#">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                <p>
+                  Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+                </p>
+                <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left green">95</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+                </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span3-->
+          </div><!--/row-->
+          <div class="row last-row">
+            <div class="span3 app-card">
+              <a href = "#"><img src="img/app1.jpg" alt=""></a>
+              <div class="description">
+                <h3><a href="#">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                <p>
+                  Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+                </p>
+                <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left green">95</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+                </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span3-->
+            <div class="span3 app-card">
+              <a href = "#"><img src="img/app1.jpg" alt=""></a>
+              <div class="description">
+                <h3><a href="#">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                <p>
+                  Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+                </p>
+                <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left green">95</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+                </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span3-->
+            <div class="span3 app-card">
+              <a href = "#"><img src="img/app1.jpg" alt=""></a>
+              <div class="description">
+                <h3><a href="#">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                <p>
+                  Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+                </p>
+                <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left green">95</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+                </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span3-->
+          </div><!--/row-->
+          <div class="row">
+            <h2>Popular Business Solution Services</h2>
+            <div class="app-card span4-5 deal">
+              <div class="description-header clearfix">
+                  <a href="#" class="pull-left"><img src="img/babel.jpg" alt=""></a>
+                  <div class="pull-left app-title">
+                    <h3 class="pull-left"><a href="">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                    <br><small>By hootsuite</small>
+                  </div>
+              </div>
+              <p>
+                Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+              </p>
+              <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left yellow">39</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span4-5-->
+            <div class="app-card span4-5 deal">
+              <div class="description-header clearfix">
+                  <a href="#" class="pull-left"><img src="img/babel.jpg" alt=""></a>
+                  <div class="pull-left app-title">
+                    <h3 class="pull-left"><a href="">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                    <br><small>By hootsuite</small>
+                  </div>
+              </div>
+              <p>
+                Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+              </p>
+              <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left yellow">39</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span4-5-->
+          </div><!--/row-->
+          <div class="row last-row">
+            <div class="app-card span4-5 deal">
+              <div class="description-header clearfix">
+                  <a href="#" class="pull-left"><img src="img/babel.jpg" alt=""></a>
+                  <div class="pull-left app-title">
+                    <h3 class="pull-left"><a href="">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                    <br><small>By hootsuite</small>
+                  </div>
+              </div>
+              <p>
+                Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+              </p>
+              <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left yellow">39</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span4-5-->
+            <div class="app-card span4-5 deal">
+              <div class="description-header clearfix">
+                  <a href="#" class="pull-left"><img src="img/babel.jpg" alt=""></a>
+                  <div class="pull-left app-title">
+                    <h3 class="pull-left"><a href="">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                    <br><small>By hootsuite</small>
+                  </div>
+              </div>
+              <p>
+                Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+              </p>
+              <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left yellow">39</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span4-5-->
+          </div><!--/row-->
+          <div class="row last-row">
+            <h2>Popular Leisure & Entertainement Services</h2>
+            <div class="app-card span4-5 deal">
+              <div class="description-header clearfix">
+                  <a href="#" class="pull-left"><img src="img/babel.jpg" alt=""></a>
+                  <div class="pull-left app-title">
+                    <h3 class="pull-left"><a href="">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                    <br><small>By hootsuite</small>
+                  </div>
+              </div>
+              <p>
+                Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+              </p>
+              <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left yellow">39</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span4-5-->
+            <div class="app-card span4-5">
+              <div class="description-header clearfix">
+                  <a href="#" class="pull-left"><img src="img/babel.jpg" alt=""></a>
+                  <div class="pull-left app-title">
+                    <h3 class="pull-left"><a href="">Mavenlink Pro<span class="turn-card-to-link"></span></a></h3>
+                    <br><small>By hootsuite</small>
+                  </div>
+              </div>
+              <p>
+                Collaborate, share files, invoice, track time, and make or receive payment in a custom-branded
+              </p>
+              <div class="app-card-bottom clearfix">
+                  <div class="rating pull-left orange">39</div>
+                  <div class="like pull-left"><i class="icon-heart"></i> 1</div>
+                  <div class="pull-right">
+                    <span class="discount">$117.00</span>
+                    <span class="price">$81.90</span>
+                  </div>
+              </div>
+              <div class="view-more clearfix">
+                <button class="view-more-btn btn pull-right">View more</button>
+              </div>
+            </div><!--/span4-5-->
+          </div><!--/row-->
+        </div><!--/span9-->
+      </div><!--/row-->
+    </div><!--/container-->
+    <footer class="clearfix">
+      <div class="container">
+        <ul class="inline pull-left">
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">About us</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+        <p class="pull-right"> <i class="icon-cloudswave"></i>Cloudswave. All Rights Reserved. Copyright &copy; 2013</p>
+      </div>
+    </footer>
 
-  <!-- For first-generation iPad: -->
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="http://unikexperience.github.com/unikexperience//images/iphone-icon-72x72.png">
+    <!-- Modal-login-Clouds-wave-->
+    <div id="login-cloudswave" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="loginCloudswaveModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="loginCloudswaveModalLabel">Login to Cloudswave</h3>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="span6">
+              <div class="using-socials-label">Login with a social network</div>
+              <div class="big-social-btn big-social-btn-fb">
+                <a href="#" class="join-using-fb-btn"><img src="img/fb-join.png" alt="">Sign in with Facebook</a>
+              </div>
+              <div class="big-social-btn big-social-btn-tw">
+                <a href="#" class="join-using-twitter-btn"><img src="img/tw-join.png" alt="">Sign in with Twitter</a>
+              </div>
+            </div>
+            <div class="span6">
+              <form>
+                <fieldset>
+                  <label>Login in with registered details</label>
+                  <input type="text" placeholder="Enter your email">
+                  <input type="password" placeholder="Enter your password">
+                  <p class="psw-recovery"><a href="">Forgot your password?</a></p>
+                  <button type="submit" id="login-cloudswave-btn">Login</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+       <p>Don’t have an account?<a class="toggle-modals"> Join Now </a></p>
+      </div>
+    </div><!--/ Modal-login-Clouds-wave-->
 
-  <!-- For iPhone 4 with high-resolution Retina display: -->
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="http://unikexperience.github.com/unikexperience//images/iphone-icon-114x114.png">
+    <!-- Modal-Join-Clouds-wave-->
 
-  <!-- No such device exists yet, so if this value is used,
-    it means the sizes attribute is ignored: -->
-  <link rel="apple-touch-icon-precomposed" sizes="228x228" href="http://unikexperience.github.com/unikexperience//images/iphone-icon-228x228.png">
+    <div id="join-cloudswave" class="modal hide fade" tabindex="-1" role="dialog" aria-labelledby="joinCloudswaveModalLabel" aria-hidden="true">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+        <h3 id="joinCloudswaveModalLabel">Join Cloudswave</h3>
+      </div>
+      <div class="modal-body">
+        <div class="container-fluid">
+          <div class="row-fluid">
+            <div class="span6">
+              <div class="using-socials-label">Join us with a social network</div>
+              <div class="big-social-btn big-social-btn-fb">
+                <a href="#" class="join-using-fb-btn big-social-btn-fb"><img src="img/fb-join.png" alt="">Sign up with Facebook</a>
+              </div>
+              <div class="big-social-btn big-social-btn-tw">
+                <a href="#" class="join-using-twitter-btn big-social-btn-tw"><img src="img/tw-join.png" alt="">Sign up with Twitter</a>
+              </div>
+            </div>
+            <div class="span6">
+              <form>
+                <fieldset>
+                  <label>Sign up with email</label>
+                  <input type="text" placeholder="Enter your email">
+                  <input type="password" placeholder="Enter your password">
+                  <button type="submit" id="join-cloudswave-btn">Join Cloudswave</button>
+                </fieldset>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+       <p>Already have an account? <a class="toggle-modals">Login</a></p>
+      </div>
+    </div><!--/ Modal-Join-Clouds-wave-->
 
-  <!-- RSS -->
-  <link rel="alternate" type="application/rss+xml" title="Unik Blog" href="http://unikexperience.github.com/unikexperience//feed.xml" />
-  <link rel="alternate" type="application/atom+xml" title="Bilawal Hameed" href="http://feeds.feedburner.com/bilawalhameed" />
-
-  <!-- Open Graph -->
-  <meta property="og:title" content="Bilaw.al Hameed"/>
-  <meta property="og:type" content="blog"/>
-  <meta property="og:url" content="http://unikexperience.github.com/unikexperience//index.html"/>
-  <meta property="og:image" content="http://unikexperience.github.com/unikexperience//images/icon-640x640.png"/>
-  <meta property="og:site_name" content="Unik Blog"/>
-  <meta property="fb:admins" content="555155596"/>
-  <meta property="og:description" content="Unik is full service digital company located in Helsinki & Casablanca"/>
-
-</head>
-<body>
-
-  <header>
-    <!-- The logo -->
-    <div><a class="beard" href="http://unikexperience.github.com/unikexperience/" target="_self" alt="Back to home"><h1>Unik Blog</h1></a></div>
-  </header>
-
-<div class="contentWrapper">
-  <div class="content">
-    <div class="headline">
-	<h1>Hi</h1>
-	<h2>I'm an 19-year-old <span>award-winning</span> developer, serial entrepreneur, philanthropist, aspiring computer scientist, life hacker and traveller.</h2>
-</div>
-
-<div class="hr"></div>
-
-<div class="posts">
-	<h3>Blog Posts</h3>
-	<ul>
-		
-        <li>
-        	<span>23 Mar 2013</span> <a href="http://unikexperience.github.com/unikexperience//2013/03/23/first-post.html">First post</a>
-        </li>
-        
-        <li>
-        	<span>17 Mar 2013</span> <a href="http://unikexperience.github.com/unikexperience//2013/03/17/hacking-the-a-tag-in-100-characters.html">Hacking the &lt;a&gt; tag in 100 characters</a>
-        </li>
-        
-        <li>
-        	<span>14 Mar 2013</span> <a href="http://unikexperience.github.com/unikexperience//2013/03/14/goodbye-wordpress-hello-jekyll.html">Bye WordPress, Hello Jekyll</a>
-        </li>
-        
-    </ul>
-</div>
-
-<div class="hr hr-mobile"></div>
-
-<div class="posts pages">
-	<h3>Pages</h3>
-	<ul>
-		
-            
-        
-            
-                <li>
-        	       <a href="http://unikexperience.github.com/unikexperience//about.html">About</a>
-                </li>
-            
-        
-            
-                <li>
-        	       <a href="http://unikexperience.github.com/unikexperience//contact.html">Contact</a>
-                </li>
-            
-        
-            
-                <li>
-        	       <a href="http://unikexperience.github.com/unikexperience//feed.xml"></a>
-                </li>
-            
-        
-            
-                <li>
-        	       <a href="http://unikexperience.github.com/unikexperience//first-page.html">First page</a>
-                </li>
-            
-        
-            
-        
-            
-                <li>
-        	       <a href="http://unikexperience.github.com/unikexperience//vision.html">My Vision</a>
-                </li>
-            
-        
-
-    </ul>
-</div>
-
-    
-  </div>
-</div>
-
-  <footer>
-    <div>&copy; 2013</div>
-  </footer>
-
-<!-- JavaScript -->
-<script type="text/javascript"> var site_url = 'http://unikexperience.github.com/unikexperience/';</script>
-<script type="text/javascript" src="http://unikexperience.github.com/unikexperience//js/jquery.min.js"></script>
-<script type="text/javascript" src="http://unikexperience.github.com/unikexperience//js/ZeroClipboard.js"></script>
-<script type="text/javascript" src="http://unikexperience.github.com/unikexperience//js/bilawal.js"></script>
-
-<!-- TypeKit -->
-<script type="text/javascript" src="//use.typekit.net/zvi4qyc.js"></script>
-<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
-
-<!-- GoSquared Analytics -->
-<script type="text/javascript">var GoSquared = {acct: "GSN-699065-S"}; (function(w){function gs(){ w._gstc_lt = +new Date; var d = document, g = d.createElement("script"); g.type = "text/javascript"; g.src = "//d1l6p2sc9645hc.cloudfront.net/tracker.js";var s = d.getElementsByTagName("script")[0]; s.parentNode.insertBefore(g, s); } w.addEventListener ? w.addEventListener("load", gs, false) : w.attachEvent("onload", gs); })(window); </script>  
-
-<!-- Powered by Jekyll. Last rendered at 2013-03-24 00:27:34 +0000 -->
-</body>
-</html>
-nt("onload", gs); })(window); </script>
-
-<!-- Powered by Jekyll. Last rendered at 2013-03-23 16:08:03 +0000 -->
-</body>
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.0/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/script.js" type="text/javascript"></script>
+  </body>
 </html>
