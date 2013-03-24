@@ -1,0 +1,32 @@
+/***************************
+
+ANONANON CSS FRAMEWORK 1.0.1
+http://anonanon.org
+
+ * Copyright 2011 Matt Lambert & Cardeo.
+ * Feel free to use, edit, abuse this framework anyway you see fit.
+ * Credit appreciated but not required
+ * Author website: http://mattlambert.org
+
+***************************/
+
+table {
+ margin: 0;
+ padding: 0;
+}
+
+td, th {
+ display: table-cell;
+ height: 36px;
+ line-height: 36px;
+ margin: 0;
+}
+
+tr {
+ margin: 0;
+}
+
+.error, .notice, .success, .box {
+ width: 96%;
+}
+
